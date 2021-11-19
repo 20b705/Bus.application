@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/schoolBus_button"
         android:layout_width="132dp"
         android:layout_height="77dp"
         android:layout_marginStart="40dp"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.454" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/KanaBus_button"
         android:layout_width="134dp"
         android:layout_height="77dp"
         android:text="神奈川中央バス"
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.454" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/schoolBus_button2"
         android:layout_width="134dp"
         android:layout_height="77dp"
         android:layout_marginStart="40dp"
@@ -89,7 +89,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/KanaBus_button2"
         android:layout_width="134dp"
         android:layout_height="77dp"
         android:layout_marginTop="55dp"
@@ -102,7 +102,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/Home_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="12dp"
@@ -111,11 +111,11 @@
         android:text="ホーム"
         android:layout_weight="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/schoolBus_button3"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/schoolBus_button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -126,11 +126,11 @@
         android:text="スクールバス"
         android:layout_weight="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button7"
-        app:layout_constraintStart_toEndOf="@+id/button5" />
+        app:layout_constraintEnd_toStartOf="@+id/KanaBus_button3"
+        app:layout_constraintStart_toEndOf="@+id/Home_button" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/KanaBus_button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -141,11 +141,11 @@
         android:text="神奈中"
         android:layout_weight="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button8"
-        app:layout_constraintStart_toEndOf="@+id/button6" />
+        app:layout_constraintEnd_toStartOf="@+id/Mypage_button"
+        app:layout_constraintStart_toEndOf="@+id/schoolBus_button3" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/Mypage_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -157,25 +157,30 @@
         android:layout_weight="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button7" />
+        app:layout_constraintStart_toEndOf="@+id/KanaBus_button3" />
 
-<!--    <DigitalClock-->
-<!--        android:id=-->
-<!--        android:layout_width="200dp"-->
-<!--        android:layout_height="100dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.498"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.108" />”@+id/digitalClock1″-->
-<!--    android:layout_weight=”wrap_content”-->
-<!--    android:layout_height=”wrap_content”-->
-<!--    android:layout_alignParentLeft=”true”-->
-<!--    android:layout_alignParentTop=”true”-->
-<!--    android:layout_marginLeft=”58dp”-->
-<!--    android:layout_marginTop=”38dp”-->
-<!--    android:text=”DigitalClock” />-->
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="yyyy/MM/dd"
+        android:format24Hour="yyyy/MM/dd"
+        android:textSize="60sp"
+        android:timeZone="Asia/Tokyo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:format24Hour="HH:mm:ss"
+        android:textSize="60sp"
+        android:timeZone="GMT+900"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
