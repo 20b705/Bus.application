@@ -9,6 +9,7 @@
     <WebView
         android:layout_width="281dp"
         android:layout_height="465dp"
+        android:id="@+id/webView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
