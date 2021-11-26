@@ -11,4 +11,5 @@ public class school_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_school_activity);
     }
+
 }
