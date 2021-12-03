@@ -16,3 +16,4 @@ public class mypage_activity extends AppCompatActivity {
         myWebView.setWebViewClient(new WebViewClient());
         myWebView.loadUrl("https://sites.google.com/a/shohoku.ac.jp/portal/");
 }
+}
