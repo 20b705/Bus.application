@@ -48,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         nextButton8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), mypage_activity.class);
                 //EditText editText = findViewById(R.id.editText);
                 startActivity(intent);
