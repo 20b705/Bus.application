@@ -102,46 +102,42 @@
 
     <Button
         android:id="@+id/Home_button"
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
         android:layout_marginBottom="2dp"
-        android:text="ホーム"
         android:layout_weight="1"
+        android:text="ホーム"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/schoolBus_button3"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/schoolBus_button3"
-        android:layout_width="wrap_content"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="2dp"
         android:layout_weight="1"
         android:text="スクールバス"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Home_button" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/KanaBus_button2"
-        android:layout_width="wrap_content"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
+        android:layout_marginStart="2dp"
         android:layout_marginBottom="2dp"
-        android:text="神奈中"
         android:layout_weight="1"
+        android:text="神奈中"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Mypage_button"
-        app:layout_constraintStart_toEndOf="@+id/schoolBus_button3" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/Mypage_button"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="2dp"
