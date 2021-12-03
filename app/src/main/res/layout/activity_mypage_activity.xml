@@ -7,7 +7,7 @@
     tools:context=".mypage_activity">
 
     <WebView
-        android:id="@+id/webView"
+        android:id="@+id/Mypage_webView"
         android:layout_width="414dp"
         android:layout_height="631dp"
         app:layout_constraintBottom_toBottomOf="parent"

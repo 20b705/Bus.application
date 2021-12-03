@@ -15,7 +15,7 @@ public class mypage_activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mypage_activity);
-        WebView myWebView = (WebView) findViewById(R.id.webView);
+        WebView myWebView = (WebView) findViewById(R.id.Mypage_webView);
         myWebView.setWebViewClient(new WebViewClient());
         myWebView.loadUrl("https://sites.google.com/a/shohoku.ac.jp/portal/");
 
