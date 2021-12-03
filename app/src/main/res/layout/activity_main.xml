@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
 
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -89,7 +88,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/KanaBus_button2"
+        android:id="@+id/KanaBus_button3"
         android:layout_width="134dp"
         android:layout_height="77dp"
         android:layout_marginTop="55dp"
@@ -119,18 +118,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
         android:layout_marginBottom="2dp"
-        android:text="スクールバス"
         android:layout_weight="1"
+        android:text="スクールバス"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/KanaBus_button3"
         app:layout_constraintStart_toEndOf="@+id/Home_button" />
 
     <Button
-        android:id="@+id/KanaBus_button3"
+        android:id="@+id/KanaBus_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -148,16 +143,12 @@
         android:id="@+id/Mypage_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
         android:layout_marginBottom="2dp"
-        android:text="マイページ"
         android:layout_weight="1"
+        android:text="マイページ"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/KanaBus_button3" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextClock
         android:layout_width="wrap_content"
@@ -172,7 +163,6 @@
     <TextClock
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="32dp"
         android:format24Hour="HH:mm:ss"
         android:textSize="60sp"
