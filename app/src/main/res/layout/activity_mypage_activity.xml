@@ -12,40 +12,58 @@
         android:layout_height="650dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Home_button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ホーム"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="770dp" />
-
-    <Button
-        android:id="@+id/schoolBus_button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="スクールバス"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="770dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
 
     <Button
         android:id="@+id/KanaBus_button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="神奈中"
-        tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="770dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Home_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ホーム"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/schoolBus_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="スクールバス"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/Mypage_button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="マイページ"
-        tools:layout_editor_absoluteX="337dp"
-        tools:layout_editor_absoluteY="770dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
