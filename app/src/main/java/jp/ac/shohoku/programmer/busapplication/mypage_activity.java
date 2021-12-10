@@ -49,10 +49,13 @@ public class mypage_activity extends AppCompatActivity {
             }
         });
         nextButton20.setOnClickListener(new View.OnClickListener() {
-            Intent intent = new Intent(getApplication(), mypage_activity.class);
-            //EditText editText = findViewById(R.id.editText);
-            startActivity(intent);
-        }
-    });
-}
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), kanatyu_activity.class);
+                //EditText editText = findViewById(R.id.editText);
+                startActivity(intent);
+            }
+        });
+
+    }
 }

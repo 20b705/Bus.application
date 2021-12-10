@@ -7,13 +7,45 @@
     tools:context=".mypage_activity">
 
     <WebView
-        android:layout_width="281dp"
-        android:layout_height="465dp"
-        android:id="@+id/webView"
+        android:id="@+id/Mypage_webView"
+        android:layout_width="402dp"
+        android:layout_height="650dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Home_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ホーム"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="770dp" />
+
+    <Button
+        android:id="@+id/schoolBus_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="スクールバス"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="770dp" />
+
+    <Button
+        android:id="@+id/KanaBus_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="神奈中"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="770dp" />
+
+    <Button
+        android:id="@+id/Mypage_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="マイページ"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="770dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
