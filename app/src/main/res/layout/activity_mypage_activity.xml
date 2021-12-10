@@ -7,46 +7,13 @@
     tools:context=".mypage_activity">
 
     <WebView
-        android:id="@+id/Mypage_webView"
-        android:layout_width="414dp"
-        android:layout_height="631dp"
+        android:layout_width="281dp"
+        android:layout_height="465dp"
+        android:id="@+id/webView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" />
-
-    <Button
-        android:id="@+id/Home_button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ホーム"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="681dp" />
-
-    <Button
-        android:id="@+id/schoolBus_button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="スクールバス"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="681dp" />
-
-    <Button
-        android:id="@+id/KanaBus_button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="神奈中"
-        tools:layout_editor_absoluteX="217dp"
-        tools:layout_editor_absoluteY="681dp" />
-
-    <Button
-        android:id="@+id/Mypage_button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="マイページ"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="681dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

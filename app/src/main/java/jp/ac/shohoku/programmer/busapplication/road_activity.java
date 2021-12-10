@@ -19,8 +19,8 @@ public class road_activity extends AppCompatActivity {
         setContentView(R.layout.activity_road_activity);
         Handler hdl;
         hdl = new Handler();
-        // 500ms遅延させてsplashHandlerを実行します。
-        hdl.postDelayed(new splashHandler(), 500);
+        // 2000ms遅延させてsplashHandlerを実行します。
+        hdl.postDelayed(new splashHandler(), 2000);
     }
 class splashHandler implements Runnable {
     public void run() {

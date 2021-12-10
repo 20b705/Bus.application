@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Button nextButton = findViewById(R.id.schoolBus_button);
         Button nettButton2 = findViewById(R.id.KanaBus_button);
         Button nextButton3 = findViewById(R.id.schoolBus_button2);
-        Button nextButton4 = findViewById(R.id.KanaBus_button2);
+        Button nextButton4 = findViewById(R.id.KanaBus_button3);
         Button nextButton5 = findViewById(R.id.Home_button);
         Button nextButton6 = findViewById(R.id.schoolBus_button3);
-        Button nextButton7 = findViewById(R.id.KanaBus_button3);
+        Button nextButton7 = findViewById(R.id.KanaBus_button2);
         Button nextButton8 = findViewById(R.id.Mypage_button);
 
         nextButton5.setOnClickListener(new View.OnClickListener() {
