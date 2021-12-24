@@ -102,9 +102,8 @@
 
     <Button
         android:id="@+id/Home_button"
-        android:layout_width="80dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
         android:layout_weight="1"
         android:text="ホーム"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,34 +111,30 @@
 
     <Button
         android:id="@+id/schoolBus_button3"
-        android:layout_width="110dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginBottom="2dp"
         android:layout_weight="1"
         android:text="スクールバス"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/KanaBus_button2"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/KanaBus_button2"
-        android:layout_width="110dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
         android:layout_marginBottom="2dp"
         android:layout_weight="1"
         android:text="神奈中"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="@id/schoolBus_button3" />
 
     <Button
         android:id="@+id/Mypage_button"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
         android:layout_marginBottom="2dp"
         android:layout_weight="1"
         android:text="マイページ"
@@ -158,14 +153,15 @@
 
     <TextClock
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="128dp"
         android:format24Hour="HH:mm:ss"
         android:textSize="60sp"
         android:timeZone="GMT+900"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
