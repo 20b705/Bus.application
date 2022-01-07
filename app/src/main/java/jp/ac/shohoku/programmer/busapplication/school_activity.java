@@ -92,17 +92,17 @@ public class school_activity extends AppCompatActivity {
 
         textView.setText(sbuilder.toString());
     }
-    public void saveData(View view){
-        SQLiteDatabase db = SchoolHelper.getWritableDatabase();
-        ContentValues values = new ContentValues();
+    //public void saveData(View view){
+      //  SQLiteDatabase db = SchoolHelper.getWritableDatabase();
+      //  ContentValues values = new ContentValues();
 
-        //EditText editTextTitle = findViewById(R.id.edit_text_key);
-        //EditText editTextScore = findViewById(R.id.edit_text_value);
-        //String title = editTextTitle.getText().toString();
-        //String score = editTextScore.getText().toString();
-        //values.put("title", title);
-        //values.put("score", score);
+      //  EditText editTextTitle = findViewById(R.id.edit_text_key);
+      //  EditText editTextScore = findViewById(R.id.edit_text_value);
+      //  String title = editTextTitle.getText().toString();
+      //  String score = editTextScore.getText().toString();
+      //  values.put("title", title);
+      //  values.put("score", score);
 
-        db.insert("testdb", null, values);
-    }
+      //  db.insert("testdb", null, values);
+    //}
 }
